@@ -25,6 +25,9 @@ Symanalytics umožňuje nahrávání dat ve formátu Excel nebo CSV
 
 # Návod na spuštění
 
+## Stáhnout a spustit jako EXE soubor (Windows)
+Nejjednoduší forma spuštění je stáhnout si EXE soubor pro Windows. Nachází se v záložce _Releases_ tohoto repozitáře. Není nutná žádná instalace programu ani není nutné mít Python v počítači, neboť celý program je zkompilovaný do jednoho spustitelného souboru. Jeho stažení či spuštění může být však obtížné, neboť prohlížeče automaticky blokují stahování neznámých EXE souborů a operační systém jejich spuštění. Proto může být nutné stažení a spuštění programu vícekrát potvrdit.
+
 ## Spustit jako Python skript
 Pro spuštění je potřeba mít nainstalovaný Python spolu s využívanými balíčky.
 Samotný program se spustí přes soubor "**Symanalytics.py**"
@@ -41,8 +44,8 @@ Samotný program se spustí přes soubor "**Symanalytics.py**"
   - openpyxl
   - xlrd
 
-## Spustit jako EXE soubor
-Z důvodu kapacitních limitací GitHub není možné poskytnout EXE soubor napřímo. Je nutné skript zkompilovat do EXE souboru ručně na vlastním počítači. Pro kompilaci je nutné mít nainstalovaný *Python* a knihovnu '*pyinstaller*'.
+## Vytvořit vlastní EXE soubor
+Je možné taky skript zkompilovat do EXE souboru ručně na vlastním počítači. Pro kompilaci je nutné mít nainstalovaný *Python* a knihovnu '*pyinstaller*'.
 
 Poté stačí jen spustit připravený batch skript '*Compile_to_exe.bat*'. Celý program se následně automaticky zkompiluje do jednoho spustitelného souboru včetně všech potřebných knihoven. Výsledný soubor se bude následně nacházet v nově vytvořené složce *dist*.
 
