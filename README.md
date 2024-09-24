@@ -8,11 +8,11 @@ Program umožňuje provádění statistických testů či analýz. Nabízí něk
 - **Lineární regrese**
 
 ### Hlavní výhody
-- **Automatické testování předpokladů**: Program kontroluje, zda jsou splněny předpoklady pro jednotlivé statistické testy.
-- **Slovní interpretace výsledků**: Výsledky jsou prezentovány formou snadno srozumitelných slovních interpretací, což usnadňuje jejich pochopení.
+- **Automatické testování předpokladů**: Program kontroluje, zda jsou splněny předpoklady pro jednotlivé statistické testy
+- **Slovní interpretace výsledků**: Výsledky jsou prezentovány formou snadno srozumitelných slovních interpretací, což usnadňuje jejich pochopení
 
 ### Jazyková lokalizace
-Celý program je vytvořen v češtině, což je výhodou pro české uživatele.
+Celý program je vytvořen v češtině, což je výhodou pro české uživatele
 
 ### Podpora vstupních formátů
 Symanalytics umožňuje nahrávání dat ve formátu Excel nebo CSV
@@ -21,6 +21,7 @@ Symanalytics umožňuje nahrávání dat ve formátu Excel nebo CSV
 - **Programovací jazyk**: Python
 - **Možnosti spuštění**: 
   - Přímo jako Python skript
+  - Přímo jako EXE soubor pro Windows
   - Kompilace do EXE souboru pomocí 'pyinstaller'
 
 # Návod na spuštění
